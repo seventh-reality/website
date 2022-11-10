@@ -25,7 +25,7 @@
     height: 900px;
     width: 900px;
     position: absolute;
-    top: calc(-50% - 350px);
+    top: calc(-30% - 350px);
     right: 25%;
 }
 
@@ -36,7 +36,7 @@
     height: 900px;
     width: 900px;
     position: absolute;
-    top: -50;
+    top: -30;
     left: 0;
     border: none;
 }
