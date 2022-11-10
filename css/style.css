@@ -3,8 +3,8 @@
 /* This styles the aside container */
 
 #aSide {
-    height: 900px;
-    width: 900px;
+    height: 800px;
+    width: 800px;
     position: absolute;
     top: calc(7% - 250px);
     right: 25%;
@@ -14,18 +14,18 @@
 /* This styles the 3D object inserted in the aside container */
 
 #aSide model-viewer {
-    height: 900px;
-    width: 900px;
+    height: 800px;
+    width: 800px;
     position: absolute;
     top: 0;
     left: 0;
     border: none;
 }
 #aSid {
-    height: 900px;
-    width: 900px;
+    height: 800px;
+    width: 800px;
     position: absolute;
-    top: calc(-30% - 350px);
+    top: calc(-20% - 350px);
     right: 25%;
 }
 
@@ -33,10 +33,10 @@
 /* This styles the 3D object inserted in the aside container */
 
 #aSid model-viewer {
-    height: 900px;
-    width: 900px;
+    height: 800px;
+    width: 800px;
     position: absolute;
-    top: -30;
+    top: -20;
     left: 0;
     border: none;
 }
