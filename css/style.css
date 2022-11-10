@@ -174,19 +174,19 @@
 /* This styles the aside container */
 
 #aSide {
-    height: 600px;
-    width: 600px;
+    height: 900px;
+    width: 900px;
     position: absolute;
     top: calc(7% - 250px);
-    right: 12%;
+    right: 55%;
 }
 
 
 /* This styles the 3D object inserted in the aside container */
 
 #aSide model-viewer {
-    height: 600px;
-    width: 600px;
+    height: 900px;
+    width: 900px;
     position: absolute;
     top: 0;
     left: 0;
