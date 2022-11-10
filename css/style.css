@@ -177,8 +177,8 @@
     height: 600px;
     width: 600px;
     position: absolute;
-    top: calc(10% - 250px);
-    right: 40%;
+    top: calc(20% - 250px);
+    right: 70%;
 }
 
 
@@ -189,6 +189,6 @@
     width: 600px;
     position: absolute;
     top: 0;
-    left: 10;
+    left: 20;
     border: none;
 }
