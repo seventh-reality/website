@@ -32,3 +32,18 @@
     margin:auto;
     border: none;
 }
+#aBLOOD {
+    height: 800px;
+    width: 800px;
+    margin:auto;
+}
+
+
+/* This styles the 3D object inserted in the aside container */
+
+#aBLOOD model-viewer {
+    height: 800px;
+    width: 800px;
+    margin:auto;
+    border: none;
+}
