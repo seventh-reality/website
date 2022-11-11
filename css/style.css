@@ -5,9 +5,7 @@
 #aSide {
     height: 800px;
     width: 800px;
-    position: absolute;
-    top: calc(7% - 250px);
-    right: 25%;
+    margin:auto;
 }
 
 
@@ -16,17 +14,13 @@
 #aSide model-viewer {
     height: 800px;
     width: 800px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin:auto;
     border: none;
 }
 #aSid {
     height: 800px;
     width: 800px;
-    position: absolute;
-    top: 800px;
-    right: 25%;
+    margin:auto;
 }
 
 
@@ -35,8 +29,6 @@
 #aSid model-viewer {
     height: 800px;
     width: 800px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin:auto;
     border: none;
 }
