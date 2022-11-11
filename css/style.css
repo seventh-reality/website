@@ -92,3 +92,18 @@
     margin:auto;
     border: none;
 }
+#aROBO {
+    height: 800px;
+    width: 800px;
+    margin:auto;
+}
+
+
+/* This styles the 3D object inserted in the aside container */
+
+#aROBO model-viewer {
+    height: 800px;
+    width: 800px;
+    margin:auto;
+    border: none;
+}
