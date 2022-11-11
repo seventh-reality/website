@@ -25,7 +25,7 @@
     height: 600px;
     width: 600px;
     position: absolute;
-    top: calc(-100% - 250px);
+    top: calc(-200% - 250px);
     right: 25%;
 }
 
@@ -36,7 +36,7 @@
     height: 600px;
     width: 600px;
     position: absolute;
-    top: -100;
+    top: -200;
     left: 0;
     border: none;
 }
