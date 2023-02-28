@@ -19,7 +19,7 @@
 }
 #aSid {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -28,13 +28,13 @@
 
 #aSid model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
 #aBLOOD {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -43,13 +43,13 @@
 
 #aBLOOD model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
 #aCARM {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -58,13 +58,13 @@
 
 #aCARM model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
 #aULTRA {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -73,13 +73,13 @@
 
 #aULTRA model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
 #aMEMO {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -88,13 +88,13 @@
 
 #aMEMO model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
 #aROBO {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -103,13 +103,13 @@
 
 #aROBO model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
 #aRE {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -118,13 +118,13 @@
 
 #aRE model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
 #aMO {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -133,7 +133,7 @@
 
 #aMO model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
