@@ -4,7 +4,7 @@
 
 #aSide {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
 }
 
@@ -13,7 +13,7 @@
 
 #aSide model-viewer {
     height: 800px;
-    width: 800px;
+    width: 500px;
     margin:auto;
     border: none;
 }
