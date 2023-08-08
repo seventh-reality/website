@@ -55,7 +55,7 @@
     height: 800px;
     width: 500px;
     margin:auto;
-    shadow:50px;
+    box-shadow: 10px 10px;
 }
 
 
