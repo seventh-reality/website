@@ -6,13 +6,14 @@
 }
 #BROCHERy {
     height: 51px;
-    width: 216px;
+    width: 209px;
     margin:auto;
     
 }
 #BROCHERt {
     height: 51px;
-    width: 100px;
+    
+    text-align: center;
     margin:auto;
     
 }
