@@ -109,6 +109,13 @@
     border-radius:15px;
 }
 /* This styles the 3D object inserted in the aside container */
+    #aVERASEAL {
+    height: 800px;
+    width: 650px;
+    margin:auto;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+    border-radius:15px;
+}
 
 #aVERASEAL model-viewer {
     height: 800px;
@@ -116,13 +123,7 @@
     margin:auto;
     border: none;
 }
-#VERASEAL {
-    height: 800px;
-    width: 650px;
-    margin:auto;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
-    border-radius:15px;
-}
+
 
 
 /* This styles the 3D object inserted in the aside container */
