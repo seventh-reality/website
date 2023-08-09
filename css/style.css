@@ -110,6 +110,14 @@
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
     border-radius:15px;
 }
+/* This styles the 3D object inserted in the aside container */
+
+#aver model-viewer {
+    height: 800px;
+    width: 500px;
+    margin:auto;
+    border: none;
+}
 #aBLOOD {
     height: 800px;
     width: 650px;
