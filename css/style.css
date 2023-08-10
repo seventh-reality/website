@@ -126,7 +126,7 @@ body {
 /* This styles the 3D object inserted in the aside container */
 
 #aver model-viewer {
-    height: 800px;
+    height: 650px;
     width: 500px;
     margin:auto;
     border: none;
