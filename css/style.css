@@ -20,7 +20,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #CT {
@@ -32,7 +32,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #inj {
@@ -44,7 +44,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #blood {
@@ -56,7 +56,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #ultra {
@@ -68,7 +68,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #refo {
@@ -80,7 +80,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #robo {
@@ -92,7 +92,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #mo {
@@ -104,7 +104,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #vital {
@@ -116,7 +116,7 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 #carm {
@@ -128,13 +128,13 @@ body {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 600px;
+  padding-bottom: 550px;
  
 }
 
 model-viewer {
   width: 100%;
-  height: 500px;
+  height: 450px;
   --poster-color: #ffffff00;
 }
 .attributiontwo {
