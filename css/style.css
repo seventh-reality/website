@@ -247,7 +247,13 @@ bottom: 30px;
 display: block;
 padding-top:0px;     
 }
-h5 {
+.attributiontwo1 {
+height: 60px;
+bottom: 30px;    
+display: block;
+padding-top:0px;     
+}
+#h5 {
        text-align: center;
        margin-top:15px; 
        font-size: 15px;
