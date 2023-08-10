@@ -1,76 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>4D Object</title>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--Imports a model-viewer JavaScript code -->
-    <!--It helps to handle how the 3D Object would be displayed -->
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-</head>
-
-<body>
-	<style>
-		h1{
-		font-family:sans-serif;
-		font-size: 30px;	
-			
-		}
-		h3{
-		font-family:sans-serif;
-		font-size: 30px;	
-			
-		}
-	</style>
-    <!-- Main Container -->
-    <div id="container">
-	    <div id="BROCHER">
-	   <div class=""><h1>4D BROCHURES</h1></div>
-	</div>
-
-        <!-- Navbarcontainer -->
-      
-
-        <!-- An aside -->
-        <!-- This is for holding the 3D object -->
-        <div id="aSide">
-	    <model-viewer src="assets/Ventilator.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/ac42206a60b911ed8cefbd5ee26890cbVentilator.usdz">
-	
-	 </model-viewer>
+  <head>
+    <title>Varian </title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+     <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+  </head>
+  <body><div id="text">
+    <style>h1{
+      text-align: center;
+    }</style>
+    <h1>4D Broucher</h1>
+  </div>
+    <div id="card">
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="assets/Ventilator.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+       <div id="button">
+         
+      </div>
+     
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer> 
      <section class="attributiontwo">
-	
+       <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+      
       <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1VFkAn9ewCPABnrYV5PlOd9FvALtxhyPK/view?usp=sharing"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
         
-      </span>
-       <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>  <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
-    </section>    
-	    </div>
-	    <div class="team-desc team-desc-bg">
-	</div>		    	    
-        </div>		    
-	
-	 <div id="aSid">
-	    
-            <model-viewer src="assets/CT SCANNER_Text_4.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/38755872618211ed8cefbd5ee26890cbCT SCANNER_Text_4.usdz">
-            </model-viewer>
-		<section class="attributiontwo1">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+        <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
         <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
         <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
@@ -80,226 +45,368 @@
          <style>
        h5 {
        text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
+       margin-top:-5px; 
+       
+       
+       font-size: 9px;
+         }
+          
    </style>  
-    </section> 
-            </div>
-	    <div class="team-desc team-desc-bg"> 
-       </div>
-	    <div id="BROCHERu">
-	   <div class=""><h3></h3></div>
-        </div>
-	<div id="aver">
-	    <model-viewer src="assets/VERASEAL.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="">
-	    </model-viewer>
-	<section class="attributiontwo2">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
+   
     </section>
-	    </div>
-	    <div class="team-desc team-desc-bg">
-	</div>
- 
-        </div>		    
-	    
-        <div id="aBLOOD">
-	   <div class=""><h3></h3><span></span></div>
-            <model-viewer src="assets/bloodana.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/0fab9ebe618311ed8cefbd5ee26890cbbloodana.usdz">
-            </model-viewer>
-            </div>
-	    <div class="team-desc team-desc-bg"> 
+      
        </div>
-	     <div id="BROCHERq">
-	   <div class=""><h3><section class="attributiontwo">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
-    </section></h3></div>
-        </div>
-	 
-	   <div id="aULTRA">
-	   <div class=""><h3></h3><span></span></div>
-            <model-viewer src="assets/ULTRASOUND.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/e99924ae618611ed8cefbd5ee26890cbULTRASOUND.usdz">
-            </model-viewer>
-            </div>
-	    <div class="team-desc team-desc-bg">
-	</div>
-	     <div id="BROCHERw">
-	   <div class=""><h3><section class="attributiontwo">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
-    </section></h3></div>
-        </div>
-	  <div id="aMEMO">
-	   <div class=""><h3></h3><span></span></div>
-            <model-viewer src="assets/MAMMOGRAPHY.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/df9f485a618811ed8cefbd5ee26890cbMAMMOGRAPHY.usdz">
-            </model-viewer>
-            </div>
-	    <div class="team-desc team-desc-bg">
-	</div>
-	    <div id="BROCHERe">
-	   <div class=""><h3><section class="attributiontwo">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
-    </section></h3></div>
-        </div>
-	  <div id="aROBO">
-	   <div class=""><h3></h3><span></span></div>
-            <model-viewer src="assets/surgical robotics.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/5ca49958618a11ed8cefbd5ee26890cbsurgical robotics.usdz">
-            </model-viewer>
-            </div>
-	    <div class="team-desc team-desc-bg">
-	</div>
-	    <div id="BROCHERr">
-	   <div class=""><h3><section class="attributiontwo">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
-    </section></h3></div>
-        </div>
-	    <div id="aRE">
-	   <div class=""><h3></h3><span></span></div>
-            <model-viewer src="assets/REFRACTOMETER.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/bc742f0e618c11ed8cefbd5ee26890cbREFRACTOMETER.usdz">
-            </model-viewer>
-            </div>
-	    <div class="team-desc team-desc-bg">
-        </div>
-	    <div id="BROCHERt">
-	   <div class=""><h3><section class="attributiontwo">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
-    </section></h3></div>
-        </div>
-	    <div id="aMO">
-	   <div class=""><h3></h3><span></span></div>
-            <model-viewer src="assets/VITAL SIGNS MONITOR (1).glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/07350390618f11ed8cefbd5ee26890cbVITAL SIGNS MONITOR.usdz">
-            </model-viewer>
-            </div>
-	    <div class="team-desc team-desc-bg">
+       <div id="CT">
+       <!-- <model-viewer> HTML element -->
+       <model-viewer src="assets/CT SCANNER_Text_4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+         <div class="progress-bar hide" slot="progress-bar">
+             <div class="update-bar"></div>
+         </div>
+          <div id="button">
+            
+         </div>
+        
+         <div id="ar-prompt">
+             <img src="ar_hand_prompt.png">
+         </div>
+       </model-viewer> 
+        <section class="attributiontwo1">
+          <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+         
+         <span>
+           
+           <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+           <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+           <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+           <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+           <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+         </span>
+            <style>
+          h5 {
+          text-align: center;
+          margin-top:-5px; 
+          
+          
+          font-size: 9px;
+            }
+             
+      </style>  
+      
+       </section>
+       <div id="inj">
+        <!-- <model-viewer> HTML element -->
+        <model-viewer src="assets/VERASEAL.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+          <div class="progress-bar hide" slot="progress-bar">
+              <div class="update-bar"></div>
           </div>
-	    <div id="BROCHERy">
-	   <div class=""><h3><section class="attributiontwo">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
-    </section></h3></div>
-        </div>
-	    <div id="aCARM">
-	   <div class=""><h3></h3><span></span></div>
-            <model-viewer src="assets/Carm.glb" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/962c1594618411ed8cefbd5ee26890cbCarm.usdz">
-            </model-viewer>
+           <div id="button">
+              
+          </div>
+         
+          <div id="ar-prompt">
+              <img src="ar_hand_prompt.png">
+          </div>
+        </model-viewer> 
+         <section class="attributiontwo2">
+           <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+          
+          <span>
+            
+            <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+            <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+            <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+            <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+            <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+          </span>
+             <style>
+           h5 {
+           text-align: center;
+           margin-top:-5px; 
+           
+           
+           font-size: 9px;
+             }
+              
+       </style>  
+       
+        </section>
+        <div id="blood">
+          <!-- <model-viewer> HTML element -->
+          <model-viewer src="assets/bloodana.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+            <div class="progress-bar hide" slot="progress-bar">
+                <div class="update-bar"></div>
             </div>
-	    <div class="team-desc team-desc-bg">
-	</div>
-	    <div id="BROCHERi">
-	   <div class=""><h3><section class="attributiontwo">
-      <span>
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:60px;height:80px; padding-left: 20px;padding-top: 0px;"></a>
-        <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:15px; 
-       font-size: 15px;
-         }     
-   </style>  
-    </section></h3></div>
-        </div>
-</body>
-
+             <div id="button">
+                
+            </div>
+           
+            <div id="ar-prompt">
+                <img src="ar_hand_prompt.png">
+            </div>
+          </model-viewer> 
+           <section class="attributiontwo3">
+             <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+            
+            <span>
+              
+              <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+              <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+              <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+              <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+              <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+            </span>
+               <style>
+             h5 {
+             text-align: center;
+             margin-top:-5px; 
+             
+             
+             font-size: 9px;
+               }
+                
+         </style>  
+         
+          </section>
+          <div id="ultra">
+            <!-- <model-viewer> HTML element -->
+            <model-viewer src="assets/ULTRASOUND.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+              <div class="progress-bar hide" slot="progress-bar">
+                  <div class="update-bar"></div>
+              </div>
+               <div id="button">
+                  
+              </div>
+             
+              <div id="ar-prompt">
+                  <img src="ar_hand_prompt.png">
+              </div>
+            </model-viewer> 
+             <section class="attributiontwo4">
+               <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+              
+              <span>
+                
+                <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+                <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+              </span>
+                 <style>
+               h5 {
+               text-align: center;
+               margin-top:-5px; 
+               
+               
+               font-size: 9px;
+                 }
+                  
+           </style>  
+           
+            </section>
+            <div id="refo">
+              <!-- <model-viewer> HTML element -->
+              <model-viewer src="assets/REFRACTOMETER.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                 <div id="button">
+                    
+                </div>
+               
+                <div id="ar-prompt">
+                    <img src="ar_hand_prompt.png">
+                </div>
+              </model-viewer> 
+               <section class="attributiontwo5">
+                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+                
+                <span>
+                  
+                  <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+                  <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+                </span>
+                   <style>
+                 h5 {
+                 text-align: center;
+                 margin-top:-5px; 
+                 
+                 
+                 font-size: 9px;
+                   }
+                    
+             </style>  
+             
+              </section>
+            </section>
+            <div id="robo">
+              <!-- <model-viewer> HTML element -->
+              <model-viewer src="assets/surgical robotics.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                 <div id="button">
+                    
+                </div>
+               
+                <div id="ar-prompt">
+                    <img src="ar_hand_prompt.png">
+                </div>
+              </model-viewer> 
+               <section class="attributiontwo6">
+                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+                
+                <span>
+                  
+                  <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+                  <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+                </span>
+                   <style>
+                 h5 {
+                 text-align: center;
+                 margin-top:-5px; 
+                 
+                 
+                 font-size: 9px;
+                   }
+                    
+             </style>  
+             
+              </section>
+            </section>
+            <div id="mo">
+              <!-- <model-viewer> HTML element -->
+              <model-viewer src="assets/MAMMOGRAPHY.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                 <div id="button">
+                    
+                </div>
+               
+                <div id="ar-prompt">
+                    <img src="ar_hand_prompt.png">
+                </div>
+              </model-viewer> 
+               <section class="attributiontwo7">
+                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+                
+                <span>
+                  
+                  <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+                  <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+                </span>
+                   <style>
+                 h5 {
+                 text-align: center;
+                 margin-top:-5px; 
+                 
+                 
+                 font-size: 9px;
+                   }
+                    
+             </style>  
+             
+              </section>
+            </section>
+            <div id="vital">
+              <!-- <model-viewer> HTML element -->
+              <model-viewer src="assets/VITAL SIGNS MONITOR.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                 <div id="button">
+                    
+                </div>
+               
+                <div id="ar-prompt">
+                    <img src="ar_hand_prompt.png">
+                </div>
+              </model-viewer> 
+               <section class="attributiontwo8">
+                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+                
+                <span>
+                  
+                  <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+                  <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+                </span>
+                   <style>
+                 h5 {
+                 text-align: center;
+                 margin-top:-5px; 
+                 
+                 
+                 font-size: 9px;
+                   }
+                    
+             </style>  
+             
+              </section>
+            </section>
+            <div id="carm">
+              <!-- <model-viewer> HTML element -->
+              <model-viewer src="assets/Carm.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
+                <div class="progress-bar hide" slot="progress-bar">
+                    <div class="update-bar"></div>
+                </div>
+                 <div id="button">
+                    
+                </div>
+               
+                <div id="ar-prompt">
+                    <img src="ar_hand_prompt.png">
+                </div>
+              </model-viewer> 
+               <section class="attributiontwo9">
+                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
+                
+                <span>
+                  
+                  <a href="https://varian.widen.net/view/pdf/pm2uamrxjg/Ethos_Brochure_RAD10737_Mar2020.pdf?u=bmxzem"><img src="Broucher_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
+                  <a href="https://vimeo.com/504559516"><img src="Video_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://www.varian.com/products/adaptive-therapy/ethos"><img src="web_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSew4D56CSKpONvc30Ay7cLUY6FnPCOs7zK9IPYRLQWQPswbsg/viewform?usp=sf_link"><img src="form_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <a href="https://drive.google.com/file/d/1ARHBysiKgoxjjLSS2gzJyU5NwRu_wlXC/view?usp=sharing"><img src="analytics_1.png" id="youtube-icon" align="center" style="width:30px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
+                  <h5>CLICK ON THE ABOVE ICONS FOR MORE FEATURES</h5>
+                </span>
+                   <style>
+                 h5 {
+                 text-align: center;
+                 margin-top:-5px; 
+                 
+                 
+                 font-size: 9px;
+                   }
+                    
+             </style>  
+             
+              </section>                                                                                   
+         
+          </div>     
+   
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+  </body>
 </html>
