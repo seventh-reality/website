@@ -240,5 +240,8 @@
 .attributiontwo {
 height: 60px;   
 text-align: center;
-margin:auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
 }
