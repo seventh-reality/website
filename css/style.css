@@ -254,17 +254,25 @@ body {
 height: 60px;
 bottom: 30px;    
 display: block;
-padding-top:0px;     
+padding-top:0px;
+font-size: 10px;  
 }
 .attributiontwo1 {
 height: 60px;
 bottom: 30px;    
 display: block;
 padding-top:0px;
-font-size: 15px;  
+font-size: 10px;  
+}
+.attributiontwo2 {
+height: 60px;
+bottom: 30px;    
+display: block;
+padding-top:0px;
+font-size: 10px;  
 }
 .h5 {
        text-align: center;
        margin-top:15px; 
-       font-size: 15px;
+       font-size: 10px;
          }    
