@@ -2,11 +2,6 @@
   display: none;
 }
 #box{
-  h7{
-      padding-top:40px;
-      height:10px;
-      text-align: center;
-  }
   margin: 3em auto;
   flex-direction: column;
   max-width: 281px;
