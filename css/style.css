@@ -2,7 +2,7 @@
   display: none;
 }
 #box{
-  margin: 3em auto;
+  margin: 1em auto;
   flex-direction: column;
   max-width: 281px;
   max-height: 0px;
@@ -10,7 +10,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
   overflow: inherit;
   color: #000000;
-  padding-bottom: 195px;
+  padding-bottom: 165px;
 }
 
 body {
