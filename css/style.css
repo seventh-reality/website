@@ -22,7 +22,7 @@ body {
 
 
 #card {
-  margin: 3em auto;
+  margin: 2em auto;
   flex-direction: column;
   max-width: 281px;
   max-height: 0px;
@@ -34,7 +34,7 @@ body {
  
 }
 #CT {
-  margin: 3em auto;
+  margin: 2em auto;
   flex-direction: column;
   max-width: 281px;
   max-height: 0px;
