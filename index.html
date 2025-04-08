@@ -1,461 +1,261 @@
 <!doctype html>
 <html lang="en">
   <head>
-    
-     <title>4D Brochure </title> 
-    
+    <title>4D Brochure</title>
     <meta charset="utf-8">
     <meta name="description" content="&lt;model-viewer&gt; template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" href="css/style.css" rel="stylesheet"/>
-     <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
     <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <style>
+      .button-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+        background-image: url('black.png');
+      }
+      .button-container a img {
+        width: 40px;
+        height: 40px;
+      }
+      img {
+        padding-top: 0px;
+        shadow: 10%;
+      }
+      #box img {
+        padding-top: 4px;
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+      }
+      h5 {
+        text-align: center;
+        margin-top: -5px;
+        font-size: 9px;
+      }
+    </style>
   </head>
-  <body><div align='center'>
-            <img src="4D.png"><br/>
-             </div>
-             <style>img{
-               padding-top:0px;
-               shadow:10%;
-             }</style>
-      
-    
+  <body>
+    <div align='center'>
+      <img src="4D.png"><br/>
+    </div>
     
     <div id="box">
-    <style>img{
-      padding-top:4px;
-      margin-center: auto;
-      text-align: center;
-    }</style>
+      <img src="icons.png" alt="Paris">
+    </div>
     
-    <img src="icons.png" alt="Paris" style="width:100%">
-    
-  </div>
-    
+    <!-- Ventilator Section -->
     <div id="card">
-    <!-- <model-viewer> HTML element -->
-    <model-viewer src="assets/Ventilator.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-      <div class="progress-bar hide" slot="progress-bar">
+      <model-viewer src="assets/Ventilator.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
           <div class="update-bar"></div>
-      </div>
-      <button slot="ar-button" id="ar-button">View in 4D
-    </button>
-       <div id="button">
-         
-      </div>
-     
-      <div id="ar-prompt">
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
           <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
       </div>
-    </model-viewer> 
-     <section class="attributiontwo">
-       <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-      
-      <span>
-        
-        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>       
-      </span>
-         <style>
-       h5 {
-       text-align: center;
-       margin-top:-5px; 
-       
-       
-       font-size: 9px;
-         }
-          
-   </style>  
-   
-    </section>
-      
-       </div>
-       <div id="CT">
-       <!-- <model-viewer> HTML element -->
-       <model-viewer src="assets/CT SCANNER_Text_4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-         <div class="progress-bar hide" slot="progress-bar">
-             <div class="update-bar"></div>
-         </div>
-         <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-          <div id="button">
-            
-         </div>
-        
-         <div id="ar-prompt">
-             <img src="ar_hand_prompt.png">
-         </div>
-       </model-viewer> 
-        <section class="attributiontwo1">
-          <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-         
-         <span>
-           
-            <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-          
-         </span>
-            <style>
-          h5 {
-          text-align: center;
-          margin-top:-5px; 
-          
-          
-          font-size: 9px;
-            }
-             
-      </style>  
-      
-       </section>
-       <div id="inj">
-        <!-- <model-viewer> HTML element -->
-        <model-viewer src="assets/VERASEAL.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-          <div class="progress-bar hide" slot="progress-bar">
-              <div class="update-bar"></div>
-          </div>
-          <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-           <div id="button">
-              
-          </div>
-         
-          <div id="ar-prompt">
-              <img src="ar_hand_prompt.png">
-          </div>
-        </model-viewer> 
-         <section class="attributiontwo2">
-           <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-          
-          <span>
-            
-             <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       
-          </span>
-             <style>
-           h5 {
-           text-align: center;
-           margin-top:-5px; 
-           
-           
-           font-size: 9px;
-             }
-              
-       </style>  
-       
-        </section>
-        <div id="blood">
-          <!-- <model-viewer> HTML element -->
-          <model-viewer src="assets/bloodana.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-            <div class="progress-bar hide" slot="progress-bar">
-                <div class="update-bar"></div>
-            </div>
-            <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-             <div id="button">
-                
-            </div>
-           
-            <div id="ar-prompt">
-                <img src="ar_hand_prompt.png">
-            </div>
-          </model-viewer> 
-           <section class="attributiontwo3">
-             <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-            
-            <span>
-              
-               <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       
-              
-            </span>
-               <style>
-             h5 {
-             text-align: center;
-             margin-top:-5px; 
-             
-             
-             font-size: 9px;
-               }
-                
-         </style>  
-         
-          </section>
-          <div id="ultra">
-            <!-- <model-viewer> HTML element -->
-            <model-viewer src="assets/ULTRASOUND.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-              <div class="progress-bar hide" slot="progress-bar">
-                  <div class="update-bar"></div>
-              </div>
-              <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-               <div id="button">
-                  
-              </div>
-             
-              <div id="ar-prompt">
-                  <img src="ar_hand_prompt.png">
-              </div>
-            </model-viewer> 
-             <section class="attributiontwo4">
-               <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-              
-              <span>
-                
-                 <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       
-                
-              </span>
-                 <style>
-               h5 {
-               text-align: center;
-               margin-top:-5px; 
-               
-               
-               font-size: 9px;
-                 }
-                  
-           </style>  
-           
-            </section>
-            <div id="refo">
-              <!-- <model-viewer> HTML element -->
-              <model-viewer src="assets/REFRACTOMETER.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-                <div class="progress-bar hide" slot="progress-bar">
-                    <div class="update-bar"></div>
-                </div>
-                <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-                 <div id="button">
-                    
-                </div>
-               
-                <div id="ar-prompt">
-                    <img src="ar_hand_prompt.png">
-                </div>
-              </model-viewer> 
-               <section class="attributiontwo5">
-                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-                
-                <span>
-                  
-                   <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       
-                  
-                </span>
-                   <style>
-                 h5 {
-                 text-align: center;
-                 margin-top:-5px; 
-                 
-                 
-                 font-size: 9px;
-                   }
-                    
-             </style>  
-             
-              </section>
-            </section>
-            <div id="robo">
-              <!-- <model-viewer> HTML element -->
-              <model-viewer src="assets/surgical robotics.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-                <div class="progress-bar hide" slot="progress-bar">
-                    <div class="update-bar"></div>
-                </div>
-                <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-                 <div id="button">
-                    
-                </div>
-               
-                <div id="ar-prompt">
-                    <img src="ar_hand_prompt.png">
-                </div>
-              </model-viewer> 
-               <section class="attributiontwo6">
-                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-                
-                <span>
-                  
-                   <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-      
-                  
-                </span>
-                   <style>
-                 h5 {
-                 text-align: center;
-                 margin-top:-5px; 
-                 
-                 
-                 font-size: 9px;
-                   }
-                    
-             </style>  
-             
-              </section>
-            </section>
-            <div id="mo">
-              <!-- <model-viewer> HTML element -->
-              <model-viewer src="assets/MAMMOGRAPHY.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-                <div class="progress-bar hide" slot="progress-bar">
-                    <div class="update-bar"></div>
-                </div>
-                <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-                 <div id="button">
-                    
-                </div>
-               
-                <div id="ar-prompt">
-                    <img src="ar_hand_prompt.png">
-                </div>
-              </model-viewer> 
-               <section class="attributiontwo7">
-                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-                
-                <span>
-                  
-                   <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       
-                  
-                </span>
-                   <style>
-                 h5 {
-                 text-align: center;
-                 margin-top:-5px; 
-                 
-                 
-                 font-size: 9px;
-                   }
-                    
-             </style>  
-             
-              </section>
-            </section>
-            <div id="vital">
-              <!-- <model-viewer> HTML element -->
-              <model-viewer src="assets/VITAL SIGNS MONITOR (1).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-                <div class="progress-bar hide" slot="progress-bar">
-                    <div class="update-bar"></div>
-                </div>
-                <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-                 <div id="button">
-                    
-                </div>
-               
-                <div id="ar-prompt">
-                    <img src="ar_hand_prompt.png">
-                </div>
-              </model-viewer> 
-               <section class="attributiontwo8">
-                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-                
-                <span>
-                  
-                   <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-        
-                  
-                </span>
-                   <style>
-                 h5 {
-                 text-align: center;
-                 margin-top:-5px; 
-                 
-                 
-                 font-size: 9px;
-                   }
-                    
-             </style>  
-             
-              </section>
-            </section>
-            <div id="carm">
-              <!-- <model-viewer> HTML element -->
-              <model-viewer src="assets/Carm.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif"  shadow-intensity="0.88" shadow-softness="1" exposure="1">
-                <div class="progress-bar hide" slot="progress-bar">
-                    <div class="update-bar"></div>
-                </div>
-                <button slot="ar-button" id="ar-button">
-        View in 4D
-    </button>
-                 <div id="button">
-                    
-                </div>
-               
-                <div id="ar-prompt">
-                    <img src="ar_hand_prompt.png">
-                </div>
-              </model-viewer> 
-               <section class="attributiontwo9">
-                 <p style="background-image: url('black.png')" style="width:60px;height:60px; padding-left: 0px;padding-top: 10px;">
-                
-                <span>
-                  
-                   <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 17px;padding-top: 0px;"></a>
-        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://seventh-reality.com/"><img src="web_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px; "></a>
-        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png" id="youtube-icon" align="center" style="width:40px;height:40px; padding-left: 20px;padding-top: 0px;"></a>
-       
-                  
-                </span>
-                   <style>
-                 h5 {
-                 text-align: center;
-                 margin-top:-5px; 
-                 
-                 
-                 font-size: 9px;
-                   }
-                    
-             </style>  
-             
-              </section>                                                                                   
-         
-          </div> 
-         <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5C09TQ43VP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    </div>
 
-  gtag('config', 'G-5C09TQ43VP');
-</script>     
-   
+    <!-- CT Scanner Section -->
+    <div id="CT">
+      <model-viewer src="assets/CT SCANNER_Text_4.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Veraseal Section -->
+    <div id="inj">
+      <model-viewer src="assets/VERASEAL.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Blood Analyzer Section -->
+    <div id="blood">
+      <model-viewer src="assets/bloodana.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Ultrasound Section -->
+    <div id="ultra">
+      <model-viewer src="assets/ULTRASOUND.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Refractometer Section -->
+    <div id="refo">
+      <model-viewer src="assets/REFRACTOMETER.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Surgical Robotics Section -->
+    <div id="robo">
+      <model-viewer src="assets/surgical robotics.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Mammography Section -->
+    <div id="mo">
+      <model-viewer src="assets/MAMMOGRAPHY.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Vital Signs Monitor Section -->
+    <div id="vital">
+      <model-viewer src="assets/VITAL SIGNS MONITOR (1).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Carm Section -->
+    <div id="carm">
+      <model-viewer src="assets/Carm.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="loading.gif" shadow-intensity="0.88" shadow-softness="1" exposure="1">
+        <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">View in 4D</button>
+        <div id="button"></div>
+        <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+        </div>
+      </model-viewer>
+      <div class="button-container">
+        <a href="https://drive.google.com/file/d/1kpr9csFU_trpcXrLeKH5CQIM5k02qxK6/view?usp=sharing"><img src="Brochure_1.png"></a>
+        <a href="https://youtu.be/feR4lDjrLt8"><img src="Video_1.png"></a>
+        <a href="https://seventh-reality.com/"><img src="web_1.png"></a>
+        <a href="https://forms.gle/nPU6KsDggsqnVopt6"><img src="form_1.png"></a>
+      </div>
+    </div>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5C09TQ43VP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5C09TQ43VP');
+    </script>
+    
     <script src="script.js"></script>
     <!-- Loads <model-viewer> for browsers: -->
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
